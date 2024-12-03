@@ -1,0 +1,89 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f8f9fa;
+    color: #333;
+    line-height: 1.6;
+}
+
+header {
+    background-color: #24292f;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+header h1 {
+    margin-bottom: 10px;
+}
+
+.course-description {
+    font-size: 1.1rem;
+    color: #ccc;
+}
+
+nav.toc {
+    background-color: #f1f1f1;
+    padding: 15px;
+    margin: 20px 0;
+    border-radius: 8px;
+}
+
+nav.toc h2 {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+}
+
+nav.toc ul {
+    list-style: none;
+}
+
+nav.toc ul li {
+    margin-bottom: 8px;
+}
+
+nav.toc ul li a {
+    color: #0366d6;
+    text-decoration: none;
+    font-size: 1rem;
+}
+
+nav.toc ul li a:hover {
+    text-decoration: underline;
+}
+
+section {
+    margin: 20px;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+section h2 {
+    font-size: 1.5rem;
+    color: #24292f;
+    margin-bottom: 15px;
+}
+
+footer {
+    background-color: #24292f;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+    margin-top: 30px;
+}
+
+footer a {
+    color: #36f;
+    text-decoration: none;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
